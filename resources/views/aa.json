@@ -1,0 +1,74 @@
+{
+  "validation": {
+    "rule": "required|max:0",
+    "messages": {
+      "max": "հղումը չպետք է պարունակի 70ից ավել տառ",
+      "required":"հղումը պարտադիր է"
+    }
+  }
+}
+
+{
+  "validation": {
+    "rule": "required ",
+      "messages": {
+      "required":"տեքստը  պարտադիր է" 
+     }
+  }
+}
+,
+
+
+
+{
+    "resize": {
+        "width": "1000",
+        "height": null
+    },
+    "quality" : "90%",
+    "upsize" : true,
+    "thumbnails": [
+        {
+            "name": "medium",
+            "scale": "50%"
+        },
+        {
+            "name": "small",
+            "scale": "25%"
+        },
+        {
+            "name": "cropped",
+            "crop": {
+                "width": "300",
+                "height": "250"
+            }
+        }
+    ]
+}
+
+
+
+{
+    "quality": "80%",
+    "upsize": true,
+    "validation": {
+        "rule": "required",
+        "messages": {
+            "required": "հիմնադիրի նկարը պարտադիր է"
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
